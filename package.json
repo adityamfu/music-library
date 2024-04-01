@@ -1,0 +1,26 @@
+{
+  "name": "music-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api-service" : "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityamfu/Music-Library-api-service.git"
+  },
+  "author": "adit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adityamfu/Music-Library-api-service/issues"
+  },
+  "homepage": "https://github.com/adityamfu/Music-Library-api-service#readme",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.0"
+  }
+}
